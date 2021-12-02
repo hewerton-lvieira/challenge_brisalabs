@@ -1,12 +1,12 @@
-const Sequelize = require('sequelize');
-const sequelize = require('../database.js');
+const Sequelize = require('sequelize')
+const sequelize = require('../database.js')
 
-const Chaves = sequelize.define('chaves',{
-  valor:{
-    type:Sequelize.STRING
+const Chaves = sequelize.define('chaves', {
+  valor: {
+    type: Sequelize.STRING
   },
-  id_user:{
-    type:Sequelize.INTEGER
+  id_user: {
+    type: Sequelize.INTEGER
   }
 })
 
