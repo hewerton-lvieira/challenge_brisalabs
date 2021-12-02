@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/hewerton-lvieira/challenge_brisalabs#readme",
   "dependencies": {
-    "pg": "^8.7.1"
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-alpha.1"
   }
 }
